@@ -1,6 +1,6 @@
 {
-  "name": "@two02/n8n-google-maps-scraper",
-  "version": "1.0.7",
+  "name": "@two02/n8n-nodes-google-maps-scraper",
+  "version": "1.0.8",
   "description": "n8n custom nodes for GeoScraper API integration.",
   "keywords": [
     "n8n-community-node-package",

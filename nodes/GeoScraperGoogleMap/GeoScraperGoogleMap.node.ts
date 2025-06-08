@@ -45,7 +45,8 @@ export class GeoScraperGoogleMap implements INodeType {
 				displayName: 'Location Name or Coordinates',
 				name: 'll',
 				type: 'string',
-				default: '@41.6948377,44.8015781,13z',
+				default: '',
+				placeholder: '@41.6948377,44.8015781,13z',
 				description: 'Coordinates and zoom level in the format "@latitude,longitude,zoomz"',
 				displayOptions: {
 					show: {
@@ -59,6 +60,7 @@ export class GeoScraperGoogleMap implements INodeType {
 				name: 'query',
 				type: 'string',
 				default: '',
+				placeholder: 'hotels',
 				description: 'The search query, e.g., "hotels in usa"',
 				displayOptions: {
 					show: {
@@ -72,6 +74,7 @@ export class GeoScraperGoogleMap implements INodeType {
 				name: 'start',
 				type: 'number',
 				default: 0,
+				placeholder: '0',
 				description: 'Pagination index of the results',
 				displayOptions: {
 					show: {
@@ -101,6 +104,7 @@ export class GeoScraperGoogleMap implements INodeType {
 				name: 'data_id',
 				type: 'string',
 				default: '',
+				placeholder: 'data_id',
 				description: 'The unique identifier for the place (data_id)',
 				displayOptions: {
 					show: {
@@ -114,6 +118,7 @@ export class GeoScraperGoogleMap implements INodeType {
 				name: 'place_id',
 				type: 'string',
 				default: '',
+				placeholder: 'ChIJ4frOVXpXKSsRFvGE8-3qe4k',
 				description: 'The Google Maps place_id for the place',
 				displayOptions: {
 					show: {
@@ -128,6 +133,7 @@ export class GeoScraperGoogleMap implements INodeType {
 				name: 'review_data_id',
 				type: 'string',
 				default: '',
+				placeholder: '0x2b29577a55cefae1:0x897beaedf384f116',
 				description: 'The unique identifier for the place (data_id)',
 				displayOptions: {
 					show: {
@@ -154,6 +160,7 @@ export class GeoScraperGoogleMap implements INodeType {
 				name: 'hl',
 				type: 'string',
 				default: 'en',
+				placeholder: 'en',
 				description: 'Language parameter for response language',
 			},
 			{
