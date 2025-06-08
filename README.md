@@ -1,4 +1,4 @@
-[![npm version](https://img.shields.io/npm/v/@twozerotwo/n8n-google-maps-scraper.svg)](https://www.npmjs.com/package/@twozerotwo/n8n-google-maps-scraper)
+[![npm version](https://img.shields.io/npm/v/@two02/n8n-google-maps-scraper.svg)](https://www.npmjs.com/package/@two02/n8n-google-maps-scraper)
 
 # n8n-nodes-geoscraper
 
@@ -8,10 +8,10 @@ This is an n8n community node for Google Maps scraping, including places, review
 
 You can install this node from npm:
 
-[https://www.npmjs.com/package/@twozerotwo/n8n-google-maps-scraper](https://www.npmjs.com/package/@twozerotwo/n8n-google-maps-scraper)
+[https://www.npmjs.com/package/@two02/n8n-google-maps-scraper](https://www.npmjs.com/package/@two02/n8n-google-maps-scraper)
 
 ```
-npm install @twozerotwo/n8n-google-maps-scraper
+npm install @two02/n8n-google-maps-scraper
 ```
 
 Geoscraper is a powerful tool for scraping Google Maps data, including reviews, search results, and auto search suggestions. It requires a Pro plan to access the API, but you can start with a free trial before paying. Obtain your API token by visiting [https://geoscraper.net/api](https://geoscraper.net/api). Use this node to access n8n's Google Maps scraper capabilities.
