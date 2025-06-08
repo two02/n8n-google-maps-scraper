@@ -1,4 +1,4 @@
-import type { ICredentialType, INodeProperties, Icon } from 'n8n-workflow';
+import type { ICredentialType, INodeProperties, Icon, ICredentialTestRequest } from 'n8n-workflow';
 
 export class GeoScraperApi implements ICredentialType {
 	name = 'geoScraperApi';
@@ -19,4 +19,15 @@ export class GeoScraperApi implements ICredentialType {
 			},
 		},
 	];
+
+	test: ICredentialTestRequest = {
+		request: {
+			method: 'GET',
+			url: 'http://api.geoscraper.net/test-api-key',
+			headers: {
+				'X-Berserker-Token': '={{$credentials.apiToken}}',
+				'Authorization': 'Bearer {{$credentials.apiToken}}',
+			},
+		},
+	};
 }
