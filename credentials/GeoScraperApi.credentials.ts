@@ -1,8 +1,9 @@
-import type { ICredentialType, INodeProperties } from 'n8n-workflow';
+import type { ICredentialType, INodeProperties, Icon } from 'n8n-workflow';
 
 export class GeoScraperApi implements ICredentialType {
 	name = 'geoScraperApi';
 	displayName = 'GeoScraper API';
+	icon = 'file:GeoScraperGoogleMap.svg' as Icon;
 	documentationUrl = 'https://docs.geoscraper.net/';
 	properties: INodeProperties[] = [
 		{
