@@ -66,7 +66,24 @@ Enjoy predictable costs and scrape as much as you need with your subscription.
 
 ## Usage
 
-Use this node to automate the extraction of Google Maps data for your business or research needs. For more details on how to use the node, refer to the n8n documentation or the Geoscraper API docs.
+To automate the extraction of Google Maps data for your business or research needs, follow these steps to get started:
+
+### How to Get Your GeoScraper API Token
+
+1. Go to [https://geoscraper.net/api](https://geoscraper.net/api).
+2. Log in or sign up for a free trial or Pro plan.
+3. Once logged in, you will see your API token on the dashboard. See the example below:
+
+   ![Copy your API token from the GeoScraper dashboard](images/api/api1.png)
+
+4. Copy the API token.
+5. In n8n, add a new credential for the GeoScraper node and paste your API token into the appropriate field. See the example below:
+
+   ![Paste your API token into n8n](images/api/api2.png)
+
+Now you can use this node to automate Google Maps scraping in your workflows.
+
+For more details on how to use the node, refer to the n8n documentation or the Geoscraper API docs.
 
 ## Resources
 
