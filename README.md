@@ -124,7 +124,7 @@ If there are more reviews available, the response will include a `next_page_toke
 
 See the example below:
 
-![Using next_page_token for more reviews](images/opereations/MapReview2.png)
+![Using next_page_token for more reviews](images/operations/MapReview2.png)
 
 ## Resources
 
