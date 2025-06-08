@@ -85,6 +85,28 @@ Now you can use this node to automate Google Maps scraping in your workflows.
 
 For more details on how to use the node, refer to the n8n documentation or the Geoscraper API docs.
 
+### Map Search
+
+Use the **Map Search** operation to find places on Google Maps by location and query.
+
+- You can enter either a location name (e.g., "New York") or geographic coordinates (e.g., "40.7128,-74.0060").
+- Add your search query (e.g., "coffee shop").
+- Specify the page number you want to retrieve results from.
+
+See the example below:
+
+![Map Search operation in n8n](images/operations/mapSearch1.png)
+
+#### Example Output
+
+Once you have run the operation, you will get an output like this:
+
+![Map Search output example](images/operations/mapSearch2.png)
+
+If no data is found, you will see a message like this:
+
+![No data found output example](images/operations/mapSearch3.png)
+
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
