@@ -107,6 +107,25 @@ If no data is found, you will see a message like this:
 
 ![No data found output example](images/operations/mapSearch3.png)
 
+### Review
+
+Use the **Review** operation to gather reviews from Google Maps for a specific place.
+
+- First, obtain the Place Data ID from a previous Map Search operation.
+- Enter the Place Data ID into the Review operation to fetch reviews for that location.
+
+See the example below:
+
+![Review operation in n8n](images/operations/MapReview1.png)
+
+#### Fetching Additional Pages
+
+If there are more reviews available, the response will include a `next_page_token`. Use this token in the Review operation to fetch the next page of reviews.
+
+See the example below:
+
+![Using next_page_token for more reviews](images/opereations/MapReview2.png)
+
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
