@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "n8n custom nodes for GeoScraper API integration.",
   "keywords": [
-    "n8n-community-node-package"
+    "n8n-community-node-package",
+    "n8n-google-maps-scraper",
+    "google-maps-scraper"
   ],
   "license": "MIT",
   "homepage": "",
