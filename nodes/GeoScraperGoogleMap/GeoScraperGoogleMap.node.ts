@@ -42,7 +42,7 @@ export class GeoScraperGoogleMap implements INodeType {
 			},
 			// Map Search & Place Search
 			{
-				displayName: 'Coordinates (LL)',
+				displayName: 'Location Name or Coordinates',
 				name: 'll',
 				type: 'string',
 				default: '@41.6948377,44.8015781,13z',
@@ -68,7 +68,7 @@ export class GeoScraperGoogleMap implements INodeType {
 			},
 			// Map Search only
 			{
-				displayName: 'Start',
+				displayName: 'Pagination Index',
 				name: 'start',
 				type: 'number',
 				default: 0,
