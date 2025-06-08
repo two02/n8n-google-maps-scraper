@@ -1,6 +1,6 @@
 {
   "name": "@two02/n8n-nodes-google-maps-scraper",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "n8n custom nodes for GeoScraper API integration.",
   "keywords": [
     "n8n-community-node-package",
@@ -22,7 +22,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "npx rimraf dist && tsc && gulp build:icons",
+    "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
     "lint": "eslint nodes credentials package.json",
@@ -53,6 +53,5 @@
     "n8n-workflow": "*"
   },
   "dependencies": {
-    "rimraf": "^6.0.1"
   }
 }

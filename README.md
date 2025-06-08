@@ -160,5 +160,5 @@ See the example below:
 
 ## Version history
 
-- v1.0.9: Latest release.
+- v1.0.10: Latest release.
 - v1.0.0: Initial release with support for Google Maps reviews, results, and auto search scraping.
