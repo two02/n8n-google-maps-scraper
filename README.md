@@ -126,6 +126,33 @@ See the example below:
 
 ![Using next_page_token for more reviews](images/operations/MapReview2.png)
 
+### Single Place Details
+
+Use the **Single Place Details** operation to retrieve detailed information about a specific place on Google Maps.
+
+- You need to provide either the Data ID or the Place ID for the location you want details about.
+
+See the example below:
+
+![Single Place Details operation in n8n](images/operations/SinglePlace1.png)
+
+#### Example Output
+
+The operation will return output like this:
+
+![Single Place Details output example](images/operations/SinglePlace2.png)
+
+### Google Maps Auto Search for Places
+
+Use the **Google Maps Auto Search** operation to quickly find basic information about places.
+
+- This operation returns only coordinates, data_id, country code, and other basic details.
+- It is especially suitable for finding the data_id for single places.
+
+See the example below:
+
+![Google Maps Auto Search operation in n8n](images/operations/autoSearch1.png)
+
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
@@ -133,4 +160,5 @@ See the example below:
 
 ## Version history
 
+- v1.0.9: Latest release.
 - v1.0.0: Initial release with support for Google Maps reviews, results, and auto search scraping.
